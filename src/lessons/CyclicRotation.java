@@ -47,11 +47,11 @@ public class CyclicRotation {
 			}
 		}
 		
-		for(int i = 0 ; i < tmp.length; i++){
-			System.out.print(tmp[i]);
-		}
-		
-		System.out.println("");
+//		for(int i = 0 ; i < tmp.length; i++){
+//			System.out.print(tmp[i]);
+//		}
+//		
+//		System.out.println("");
 		
 		for(int i = 0; i < (A.length-1)*K; i++){
 			
@@ -63,7 +63,7 @@ public class CyclicRotation {
 			System.out.print(tmp[i]);
 		}
 		
-		System.out.println("");
+//		System.out.println("");
 		
 		List<Integer> answerList = new ArrayList<>();
 		
@@ -75,9 +75,9 @@ public class CyclicRotation {
 			answer[i] = answerList.get(i);
 		}
 		
-		for(int i = 0 ; i < answer.length; i++){
-			System.out.print(answer[i]);
-		}
+//		for(int i = 0 ; i < answer.length; i++){
+//			System.out.print(answer[i]);
+//		}
 		
 		return answer;
 	}
