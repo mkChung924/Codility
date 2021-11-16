@@ -1,2 +1,3 @@
 # Codility
-Codility 코드
+
+Codility 코드 for Self Study
