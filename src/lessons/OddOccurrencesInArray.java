@@ -97,7 +97,7 @@ public class OddOccurrencesInArray {
 		return answer;
 	}
 	
-public int solution3(int[] A){
+	public int solution3(int[] A){
 		
 		int answer = 0;
 		
